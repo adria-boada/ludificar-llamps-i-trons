@@ -26,5 +26,9 @@ Si no es troba cap versió instal·lada de pip, es pot descarregar l'script d'aq
 És possible que demani la següent llibreria: 
     
     sudo apt update && sudo apt-get install python3-distutils # Instal·lar llibreries necessàries.
+
+Exemple d'instal·lació de mòduls de Python amb __pip__ (pel mòdul pygame):
+    
+    python3 -m pip install -U pygame --user
     
 
