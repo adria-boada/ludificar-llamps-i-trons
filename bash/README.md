@@ -44,7 +44,7 @@ Exemple d'instal·lació de mòduls de Python amb __pip__:
     
     sudo apt update && sudo apt install python3-matplotlib #Els mòduls populars poden ser més fàcils d'instal·lar.
     
-## Editors de textos amb entorn integrat de desenvolpament:
+## Editors de textos amb entorn integrat de desenvolpament
 
 Aplicacions per escriure codi. Utilitzar la que personalment li sembli més còmode: pot ser la llibreta del sistema operatiu per començar i més tard
 aplicacions més elaborades com Geany, Sublime Text o Visual Studio Code. Per a instal·lar Geany, per exemple:
