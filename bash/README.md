@@ -3,6 +3,16 @@
 
  - Pots ajustar la mida del text de la terminal amb 'Control' i '+' o '-'.
  - La terminal d'Ubuntu te una mida predeterminada de 80 columnes x 24 files.
+ - Es poden obrir múltiples terminals, i en cada una d'elles es poden crear finestres. 
+ - Hi han moltes dreceres de teclat:
+     - 'Control+T' obre una nova finestra de la terminal.
+     - 'Control+R' busca comandes fetes en el passat. Prèmer més d'una vegada busca comandes anteriors.
+     - 'Control+D' tanca la terminal (=exit)
+     - 'Control+C', possiblement la més important, abortar la tasca actual perquè l'usuari reprengui el control.
+     - 'Control+L' neteja la terminal (=clear) 
+     - 'Tab' autocompleta la ordre o el directori, facilitant molt el treball. 
+     - 'Alt+número' permet canviar entre finestres de la terminal ràpidament.
+     - 'Inicio' i 'Fin' porten al principi i a la fi de la línia actual. 
 
 ![imatge](https://github.com/adria-boada/effective-octo-umbrella/blob/main/imatges/terminal_opcions.png)
 
@@ -32,7 +42,7 @@ Exemple d'instal·lació de mòduls de Python amb __pip__:
     python3 -m pip install -U pygame --user #Pygame, simulacions i jocs; opció --user per l'usuari actual. 
     python3 -m pip install -U matplotlib #Matplotlib, gràfiques.
     
-    sudo apt install python3-matplotlib
+    sudo apt update && sudo apt install python3-matplotlib #Els mòduls populars poden ser més fàcils d'instal·lar.
     
 ## Editors de textos amb entorn integrat de desenvolpament:
 
