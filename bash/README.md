@@ -6,7 +6,7 @@
 
 ![imatge](https://github.com/adria-boada/effective-octo-umbrella/blob/main/imatges/terminal_opcions.png)
 
-# Descarregar software en línia
+# Software
 
 - [Article sobre apt-get install](https://embeddedinventor.com/sudo-apt-get-install-command-explained-for-beginners/)
 - Advanced Packaging Tool: [apt](wiki.debian.org/Apt).
@@ -25,10 +25,25 @@ Si no es troba cap versió instal·lada de pip, es pot descarregar l'script d'aq
 
 És possible que demani la següent llibreria: 
     
-    sudo apt update && sudo apt-get install python3-distutils # Instal·lar llibreries necessàries.
+    sudo apt update && sudo apt install python3-distutils # Instal·lar llibreries necessàries.
 
-Exemple d'instal·lació de mòduls de Python amb __pip__ (pel mòdul pygame):
+Exemple d'instal·lació de mòduls de Python amb __pip__:
     
-    python3 -m pip install -U pygame --user
+    python3 -m pip install -U pygame --user #Pygame, simulacions i jocs; opció --user per l'usuari actual. 
+    python3 -m pip install -U matplotlib #Matplotlib, gràfiques.
     
+    sudo apt install python3-matplotlib
+    
+## Editors de textos amb entorn integrat de desenvolpament:
 
+Aplicacions per escriure codi. Utilitzar la que personalment li sembli més còmode: pot ser la llibreta del sistema operatiu per començar i més tard
+aplicacions més elaborades com Geany, Sublime Text o Visual Studio Code. Per a instal·lar Geany, per exemple:
+
+    sudo apt update && sudo apt install geany
+    
+o, afegint un repositori PPA no oficial:
+
+    sudo add-apt-repository ppa:geany-dev/ppa && sudo apt update && sudo apt install geany
+    
+    
+    
