@@ -3,9 +3,9 @@
 
 La terminal és un programa que et permet comunicar-te amb l'ordinador. Enviar ordres i rebre resultats. Totes les màquines Unix tenen una terminal. 
 
- - Pots ajustar la mida del text de la terminal amb 'Control' i '+' o '-'.
- - La terminal d'Ubuntu te una mida predeterminada de 80 columnes x 24 files. Es pot ajustar la mida a les opcions de la terminal (imatge 1). 
- - Es poden obrir múltiples terminals, i en cada una d'elles es poden crear finestres. 
+ - Pots ajustar la mida del text de la terminal amb `Control` i `+` o `-`.
+ - La finestra de la terminal d'Ubuntu te una mida predeterminada de 80 columnes x 24 files. Es pot ajustar a les opcions de la terminal (imatge 1). 
+ - Es poden obrir múltiples terminals, i en cada una d'elles es poden crear més d'una finestra (igual que un navegador). 
  - Hi han moltes dreceres de teclat:
      - `Control`+`T` obre una nova finestra de la terminal.
      - `Control`+`R` busca comandes fetes en el passat. Prèmer més d'una vegada busca comandes anteriors.
@@ -22,12 +22,11 @@ La terminal és un programa que et permet comunicar-te amb l'ordinador. Enviar o
 | Descripció de la imatge: Una captura de pantalla amb `Shift` + `ImprPt`, que crea un arxiu .png a la carpeta Imatges. |
 
 
-
-
 # Software
 
-- [Article sobre apt-get install](https://embeddedinventor.com/sudo-apt-get-install-command-explained-for-beginners/)
-- Advanced Packaging Tool: [apt](wiki.debian.org/Apt).
+- Article sobre [apt-get install](https://embeddedinventor.com/sudo-apt-get-install-command-explained-for-beginners/).
+- Advanced Packaging Tool: Què és [apt](https://ca.wikipedia.org/wiki/Advanced_Packaging_Tool)?
+
 
 ## Pip: instal·lador de mòduls de Python
 
@@ -52,6 +51,7 @@ Exemple d'instal·lació de mòduls de Python amb __pip__:
     
     sudo apt update && sudo apt install python3-matplotlib #Els mòduls populars poden ser més fàcils d'instal·lar.
     
+    
 ## Editors de textos amb entorn integrat de desenvolpament
 
 Aplicacions per escriure codi. Utilitzar la que personalment li sembli més còmode: pot ser la llibreta del sistema operatiu per començar i més tard
@@ -62,6 +62,7 @@ aplicacions més elaborades com Geany, Sublime Text o Visual Studio Code. Per a 
 o, afegint un repositori PPA no oficial:
 
     sudo add-apt-repository ppa:geany-dev/ppa && sudo apt update && sudo apt install geany
+    
     
 # Bashic Commands
 
