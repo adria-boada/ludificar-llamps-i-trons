@@ -69,8 +69,30 @@ o, afegint un repositori PPA no oficial:
 Els 'command-lines' són ordres que s'envien a la màquina. Estan constituïts per la ordre, i poden contenir, addicionalment, subordres, opcions i arguments.
 Per exemple:
 
-    apt      update
-    [ordre]  [subordre]
+    apt     update
+    [ordre] [subordre]
+    
+    
+    ls      -l
+    [ordre] [una opció]
+    
+    
+    ls      #Després del '#' ve un comentari que la màquina NO llegirà
+    [ordre] [comentari]
+    
+    
+    ls      -lh    #Es poden afegir dues opcions amb un sol guió
+    ls      -l -h  #O es poden separar les opcions, una per una
+    [ordre] [dues opcions]
+    
+    
+    cd      /home/user/Escriptori
+    [ordre] [argument]
+    
+    
+    ls      -lh       /home/user/Escriptori
+    [ordre] [opcions] [argument]
+    
 
  - pwd: Escriu a la terminal el directori on et trobes actualment.
         
