@@ -7,17 +7,22 @@ La terminal és un programa que et permet comunicar-te amb l'ordinador. Enviar o
  - La terminal d'Ubuntu te una mida predeterminada de 80 columnes x 24 files. Es pot ajustar la mida a les opcions de la terminal (imatge 1). 
  - Es poden obrir múltiples terminals, i en cada una d'elles es poden crear finestres. 
  - Hi han moltes dreceres de teclat:
-     - 'Control+T' obre una nova finestra de la terminal.
-     - 'Control+R' busca comandes fetes en el passat. Prèmer més d'una vegada busca comandes anteriors.
-     - 'Control+D' tanca la terminal (=exit)
-     - 'Control+C', possiblement la més important, abortar la tasca actual perquè l'usuari reprengui el control.
-     - 'Control+L' neteja la terminal (=clear) 
-     - 'Tab' autocompleta la ordre o el directori, facilitant molt el treball. 
-     - 'Alt+número' permet canviar entre finestres de la terminal ràpidament.
-     - 'Inicio' i 'Fin' porten al principi i a la fi de la línia actual. 
+     - `Control`+`T` obre una nova finestra de la terminal.
+     - `Control`+`R` busca comandes fetes en el passat. Prèmer més d'una vegada busca comandes anteriors.
+     - `Control`+`D` tanca la terminal (=exit)
+     - `Control`+`C`, possiblement la més important, abortar la tasca actual perquè l'usuari reprengui el control.
+     - `Control`+`L` neteja la terminal (=clear) 
+     - `Tab` autocompleta la ordre o el directori, facilitant molt el treball. 
+     - `Alt`+`número` permet canviar entre finestres de la terminal ràpidament.
+     - `Inicio` i `Fin` porten al principi i a la fi de la línia actual. 
+
+| ![terminal_opcions](https://github.com/adria-boada/effective-octo-umbrella/blob/main/imatges/terminal_opcions.png) |
+|:--:| 
+|Imatge 1: Accedir a les opcions de la terminal d'Ubuntu. |
+| Descripció de la imatge: Una captura de pantalla amb `Shift` + `ImprPt`, que crea un arxiu .png a la carpeta Imatges. |
 
 
-![imatge](https://github.com/adria-boada/effective-octo-umbrella/blob/main/imatges/terminal_opcions.png)
+
 
 # Software
 
@@ -61,8 +66,10 @@ o, afegint un repositori PPA no oficial:
 # Bashic Commands
 
 Els 'command-lines' són ordres que s'envien a la màquina. Estan constituïts per la ordre, i poden contenir, addicionalment, subordres, opcions i arguments.
+Per exemple:
 
-
+    apt      update
+    [ordre]  [subordre]
 
  - pwd: Escriu a la terminal el directori on et trobes actualment.
         
