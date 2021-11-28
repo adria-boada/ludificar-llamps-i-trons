@@ -55,5 +55,5 @@ o, afegint un repositori PPA no oficial:
 
     sudo add-apt-repository ppa:geany-dev/ppa && sudo apt update && sudo apt install geany
     
-    
+
     
