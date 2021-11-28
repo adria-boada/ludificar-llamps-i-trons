@@ -96,11 +96,12 @@ Els 'command-lines' són ordres que s'envien a la màquina. Estan constituïts p
        
  - cp: copia fitxers i directoris.
 
-       cp        
+       cp mango pinya #Fa una còpia del fitxer mango que es diu pinya (els dos continuen estant buits).
        
  - rm: Elimina fitxers i directoris **PERMANENTMENT**. Es poden perdre fitxers importants, per sempre. Utilitzar amb compte. 
  
-       rm prova.txt     
+       rm mango #Elimina per sempre 'mango'.
+       rm -i pinya #Pregunta abans d'eliminar 'pinya', per si de cas!
  
  
 
