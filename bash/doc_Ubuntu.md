@@ -10,8 +10,8 @@ La terminal és un programa que et permet comunicar-te amb l'ordinador. Enviar o
      - `Control`+`T` obre una nova finestra de la terminal.
      - `Control`+`R` busca comandes fetes en el passat. Prèmer més d'una vegada busca comandes anteriors. És com un historial del navegador.
      - `Control`+`D` tanca la terminal (fa el mateix que la ordre exit).
-     - `Control`+`C`, possiblement la més important, abortar la tasca actual perquè l'usuari reprengui el control.
-     - `Control`+`L` neteja la terminal (fa el mateix que la ordre clear).
+     - `Control`+`C`, possiblement la més important, abortar la tasca actual perquè l'usuari reprengui el control. Si en algun moment es penja la terminal i no respón, o comença a fer coses que no t'agraden, o imprimeix massa text i vols que pari, prem aquests botons!
+     - `Control`+`L` neteja el text de la terminal (fa el mateix que la ordre clear).
      - `Tab` autocompleta la ordre o el directori, facilitant molt el treball. Acostuma't a tabular per estalviar feina!
      - `Alt`+`número` permet canviar entre finestres de la terminal ràpidament, si tens més d'una finestra oberta.
      - `Inicio` i `Fin` porten al principi i a la fi de la línia actual. 
@@ -24,8 +24,9 @@ La terminal és un programa que et permet comunicar-te amb l'ordinador. Enviar o
     
 # Bashic Commands
 
-Els 'command-lines' són ordres que s'envien a la màquina. Estan constituïts per la ordre, i poden contenir, addicionalment, subordres, opcions i arguments.
+Els 'command-lines' són ordres que s'envien a la màquina. Estan constituïts per la ordre, i poden contenir, a més a més, subordres, opcions i arguments.
 Per exemple:
+
 
     apt     update
     [ordre] [subordre]
@@ -35,8 +36,9 @@ Per exemple:
     [ordre] [una opció]
     
     
-    ls      #Després del '#' ve un comentari que la màquina NO llegirà
+    ls      #Després del '#' ve un comentari que la màquina NO llegirà. 
     [ordre] [comentari]
+    ### Els comentaris son per entendre's entre humans! Comenta el codi perquè altres persones el puguin entendre.
     
     
     ls      -lh    #Es poden afegir dues opcions amb un sol guió, juntes
@@ -60,7 +62,8 @@ Per exemple:
     nano    -lc         text.txt   #Intenta obrir-lo així! Per tancar nano, prem `Control`+`X`.
     [ordre] [2 opcions] [argument] [comentari]
     ### Segurament nano et demanarà que guardis els canvis quan surtis: 
-    ### Has de prèmer `Y` de Yes o `N` de No, i posar-li un nom al fitxer si el vols guardar.
+    ### Has de prèmer `Y` de Yes o `N` de No, i posar-li un nom al fitxer modificat/nou si el vols guardar.
+
 
 A continuació, una llista amb les ordres bàsiques de sistema, amb exemples.
 
