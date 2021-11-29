@@ -8,12 +8,12 @@ La terminal és un programa que et permet comunicar-te amb l'ordinador. Enviar o
  - Es poden obrir múltiples terminals, i en cada una d'elles es poden crear més d'una finestra (igual que un navegador). 
  - Hi han moltes dreceres de teclat:
      - `Control`+`T` obre una nova finestra de la terminal.
-     - `Control`+`R` busca comandes fetes en el passat. Prèmer més d'una vegada busca comandes anteriors.
-     - `Control`+`D` tanca la terminal (=exit)
+     - `Control`+`R` busca comandes fetes en el passat. Prèmer més d'una vegada busca comandes anteriors. És com un historial del navegador.
+     - `Control`+`D` tanca la terminal (fa el mateix que la ordre exit).
      - `Control`+`C`, possiblement la més important, abortar la tasca actual perquè l'usuari reprengui el control.
-     - `Control`+`L` neteja la terminal (=clear) 
-     - `Tab` autocompleta la ordre o el directori, facilitant molt el treball. 
-     - `Alt`+`número` permet canviar entre finestres de la terminal ràpidament.
+     - `Control`+`L` neteja la terminal (fa el mateix que la ordre clear).
+     - `Tab` autocompleta la ordre o el directori, facilitant molt el treball. Acostuma't a tabular per estalviar feina!
+     - `Alt`+`número` permet canviar entre finestres de la terminal ràpidament, si tens més d'una finestra oberta.
      - `Inicio` i `Fin` porten al principi i a la fi de la línia actual. 
 
 | ![terminal_opcions](https://github.com/adria-boada/effective-octo-umbrella/blob/main/imatges/terminal_opcions.png) |
@@ -39,7 +39,7 @@ Per exemple:
     [ordre] [comentari]
     
     
-    ls      -lh    #Es poden afegir dues opcions amb un sol guió
+    ls      -lh    #Es poden afegir dues opcions amb un sol guió, juntes
     ls      -l -h  #O es poden separar les opcions, una per una
     [ordre] [dues opcions]
     
@@ -51,6 +51,16 @@ Per exemple:
     ls      -lh       /home/user/Escriptori
     [ordre] [opcions] [argument]
     
+    
+    nano    -hlc        text.txt   #La ordre nano és un editor de textos, però aquestes opcions fa que no funcioni!
+    [ordre] [3 opcions] [argument] [comentari]
+    ### La opció -h imprimeix com funciona la ordre `nano` a la terminal!
+    
+    
+    nano    -lc         text.txt   #Intenta obrir-lo així! Per tancar nano, prem `Control`+`X`.
+    [ordre] [2 opcions] [argument] [comentari]
+    ### Segurament nano et demanarà que guardis els canvis quan surtis: 
+    ### Has de prèmer `Y` de Yes o `N` de No, i posar-li un nom al fitxer si el vols guardar.
 
 A continuació, una llista amb les ordres bàsiques de sistema, amb exemples.
 
@@ -70,7 +80,7 @@ A continuació, una llista amb les ordres bàsiques de sistema, amb exemples.
  - mkdir: Crea un directori, una carpeta.
      
        mkdir directori_de_prova #Crea 'directori_de_prova'
-       mkdir -p dir1/dir2/dir3/dir4 #Crea els directoris intermedis que siguin necessàris
+       mkdir -p dir1/dir2/dir3/dir4 #Crea els directoris intermedis que siguin necessàris amb l'opció -p.
        mkdir /home/user/Escriptori/directori_de_prova #Igual que cd, es pot treballar de manera absoluta o relativa.
 
  - ls: Llistat de fitxers i carpetes del pwd (present working directory o directori actual). 
@@ -95,7 +105,7 @@ A continuació, una llista amb les ordres bàsiques de sistema, amb exemples.
  
  
 
-# Software
+# Software *\[Apartat avançat!]*
 
 - Article sobre [apt-get install](https://embeddedinventor.com/sudo-apt-get-install-command-explained-for-beginners/).
 - Advanced Packaging Tool: Què és [apt](https://ca.wikipedia.org/wiki/Advanced_Packaging_Tool)?
