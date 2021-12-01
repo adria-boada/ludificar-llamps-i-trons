@@ -8,13 +8,14 @@ La terminal és un programa que et permet comunicar-te amb l'ordinador. Enviar o
  - Es poden obrir múltiples terminals, i en cada una d'elles es poden crear més d'una finestra (igual que un navegador). 
  - Hi han moltes dreceres de teclat:
      - `Control`+`T` obre una nova finestra de la terminal.
-     - `Control`+`R` busca comandes fetes en el passat. Prèmer més d'una vegada busca comandes anteriors. És com un historial del navegador.
+     - `Control`+`R` busca comandes fetes en el passat. Prèmer més d'una vegada busca comandes anteriors. És com *buscar per paraula* a l'historial del navegador.
      - `Control`+`D` tanca la terminal (fa el mateix que la ordre `exit`).
      - `Control`+`C`, possiblement la més important, abortar la tasca actual perquè l'usuari reprengui el control. Si en algun moment es penja la terminal i no respón, o comença a fer coses que no t'agraden, o imprimeix massa text i vols que pari, prem aquests botons!
      - `Control`+`L` neteja el text de la terminal (fa el mateix que la ordre `clear`).
      - `Tab` autocompleta la ordre o el directori, facilitant molt el treball. Acostuma't a tabular per estalviar feina!
      - `Alt`+`número` permet canviar entre finestres de la terminal ràpidament, si tens més d'una finestra oberta.
      - `Inicio` i `Fin` porten al principi i a la fi de la línia actual. 
+     - Les fletxes amunt '▲' i avall '▼' mostren les ordres enviades recentment, per ordre (hi ha un historial amb les ordres que envies!). 
 
 | ![terminal_opcions](https://github.com/adria-boada/effective-octo-umbrella/blob/main/imatges/terminal_opcions.png) |
 |:--:| 
