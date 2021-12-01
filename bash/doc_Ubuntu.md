@@ -63,6 +63,13 @@ Per exemple:
     [ordre] [2 opcions] [argument] [comentari]
     ### Segurament nano et demanarà que guardis els canvis quan surtis: 
     ### Has de prèmer `Y` de Yes o `N` de No, i posar-li un nom al fitxer modificat/nou si el vols guardar.
+    
+    
+    nano     h-l-c     text.txt
+    [ordre] [1er arg] [2n arg]
+    ### En aquest cas s'hauria escrit malament les opcions ja que no comencen pel guionet.
+    ### S'envien dos arguments a la ordre nano, per tant s'obren dos fitxers al PWD:
+    ### Es crea el fitxer 'h-l-c' i 'text.txt' al PWD. 
 
 
 A continuació, una llista amb les ordres bàsiques de sistema, amb exemples.
