@@ -78,7 +78,7 @@ Per exemple:
 
 A continuació, una llista amb les ordres bàsiques de sistema, amb exemples.
 
- - pwd: Escriu a la terminal el directori on et trobes actualment.
+ - pwd: Escriu a la terminal el directori on et trobes actualment, el "Present Working Directory" (Directori on s'esta treballant).
         
         pwd
        
