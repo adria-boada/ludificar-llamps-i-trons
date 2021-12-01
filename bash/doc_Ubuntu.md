@@ -111,7 +111,7 @@ que guarda el pròpi ordinador.
        mkdir -p dir1/dir2/dir3/dir4 #Crea els directoris intermedis que no existeixin amb l'opció -p.
        ### Per exemple, si la carpeta 'album_de_fruita' no existeix. A més a més de crear aquesta, també vols una
        ### carpeta per guardar les pomes, i a dins d'aquesta una altra carpeta per les pomes macintosh. 
-       ### La opció -p crea 3 directoris de cop. 
+       ### La opció -p crea 3 directoris de cop. Sense ella s'hauria d'anar un a un.
        mkdir -p album_de_fruita/pomes/mcintosh
 
  - ls: Llistat de fitxers i carpetes del pwd (present working directory o directori actual). Es pot especificar un directori
