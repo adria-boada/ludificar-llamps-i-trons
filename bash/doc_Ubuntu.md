@@ -76,7 +76,7 @@ Per exemple:
     ### Es crea el fitxer 'h-l-c' i 'text.txt' al PWD. 
 
 
-A continuació, una llista amb les ordres bàsiques de sistema, amb exemples.
+A continuació, una llista amb les ordres bàsiques de sistema, amb exemples. Es poden copiar una a una i anar provant-les a la terminal. Alguns blocs es poden copiar sencers, i cada línia s'executa independenment de la resta (el bloc de `cp` es pot copiar i enganxar sencer a la terminal). 
 
  - pwd: Escriu a la terminal el directori on et trobes actualment, el "Present Working Directory" (Directori on s'esta treballant).
         
@@ -127,7 +127,7 @@ per trobar el seu llistat de fitxers, en comptes del llistat del PWD.
 
        touch mango #Crea al pwd un fitxer buit anomenat 'mango'.
        
- - cp: copia fitxers i directoris.
+ - cp: copia fitxers i directoris. Si pwd te el fitxer mango, es pot provar de copiar el bloc sencer a la terminal. 
 
        cp mango pinya #Fa una còpia del fitxer mango que es diu pinya (els dos continuen estant buits).
        cp mango ~/Escriptori/poma #Fa una còpia del mango, l'envia a l'Escriptori i li canvia el nom a poma.
