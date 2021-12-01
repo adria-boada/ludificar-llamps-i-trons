@@ -29,11 +29,12 @@ utilitzar el click esquerra, que obre el menú desplegable on es pot copiar i en
 # Bashic Commands
 
 Els 'command-lines' són ordres que s'envien a la màquina. Estan constituïts per la ordre, i poden contenir, a més a més, subordres, opcions i arguments.
+S'ha de separar amb espais cada part de la comanda; ordre {espai} opcions {espai} arguments.
 Per exemple:
 
 
-    apt      update
-    [ordre] [subordre]
+    apt              update
+    [ordre] [espai] [subordre]
     
     
     ls       -l
@@ -77,6 +78,7 @@ Per exemple:
 
 
 A continuació, una llista amb les ordres bàsiques de sistema, amb exemples. Es poden copiar una a una i anar provant-les a la terminal. Alguns blocs es poden copiar sencers, i cada línia s'executa independenment de la resta (el bloc de `cp` es pot copiar i enganxar sencer a la terminal). 
+
 
  - pwd: Escriu a la terminal el directori on et trobes actualment, el "Present Working Directory" (Directori on s'esta treballant).
         
@@ -130,7 +132,7 @@ per trobar el seu llistat de fitxers, en comptes del llistat del PWD.
  - cp: copia fitxers i directoris. Si pwd te el fitxer mango, es pot provar de copiar el bloc sencer a la terminal. 
 
        cp mango pinya #Fa una còpia del fitxer mango que es diu pinya (els dos continuen estant buits).
-       cp mango ~/Escriptori/poma #Fa una còpia del mango, l'envia a l'Escriptori i li canvia el nom a poma.
+       cp mango album_de_fruita/poma #Fa una còpia del mango, l'envia a l'Escriptori i li canvia el nom a poma.
        cp mango ~/Escriptori #Fa una còpia de mango i l'envia a l'Escriptori. **NO** li canvia el nom. 
        
  - mv: Mou el fitxer. S'utilitza per moure i canviar el nom tant a fitxers com carpetes.
