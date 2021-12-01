@@ -145,10 +145,10 @@ per trobar el seu llistat de fitxers, en comptes del llistat del PWD.
  
        rm mango #Elimina per sempre 'mango'.
        rm -i pinya #Pregunta abans d'eliminar 'pinya', per si de cas!
-       rm -id album_de_fruita #la opció -d fa que solament s'elimina si la carpeta és buida.
+       rm -id album_de_fruita #la opció -d impedeix eliminar carpetes plenes de fitxers.
        rm -ir album_de_fruita #la opció -r fa que s'elimini recursivament una carpeta.
-       ### Recursió: vol dir que s'eliminen tots els continguts d'una carpeta.
-       ### rm 'carpeta' no funciona, si vols eliminar carpetes s'ha d'utilitzar la opció -r!
+       ### Recursió: vol dir que s'eliminen TOTS els continguts d'una carpeta, un rere l'altre.
+       ### rm 'carpeta' no funciona; si vols eliminar carpetes senceres s'ha d'utilitzar la opció -r!
  
  
 
