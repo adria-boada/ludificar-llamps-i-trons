@@ -2,6 +2,7 @@
 # Bases d'Unix: Índex
 
 - [La terminal](#terminal)
+- [Les ordres en ordre!](#ordre)
 - [Bashic Commands](#bashic)
 
 
@@ -31,8 +32,8 @@ utilitzar el click esquerra, que obre el menú desplegable on es pot copiar i en
 |Imatge 1: Accedir a les opcions de la terminal d'Ubuntu. |
 | Descripció de la imatge: Una captura de pantalla amb `Shift` + `ImprPt`, que crea un arxiu .png a la carpeta Imatges. |
     
-    
-<h2 id="bashic">Bashic Commands</h2>
+
+<h2 id="ordre">Les ordres en ordre</h2>
 
 Els 'command-lines' són ordres que s'envien a la màquina. Estan constituïts per la ordre, i poden contenir, a més a més, subordres, opcions i arguments.
 S'ha de separar amb espais cada part de la comanda; ordre {espai} opcions {espai} arguments.
@@ -82,6 +83,8 @@ Per exemple:
     ### S'envien dos arguments a la ordre nano, per tant s'obren dos fitxers al PWD:
     ### Es crea el fitxer 'h-l-c' i 'text.txt' al PWD. 
 
+
+<h2 id="bashic">Bashic Commands</h2>
 
 A continuació, una llista amb les ordres bàsiques de sistema, amb exemples. Es poden copiar línia a línia i anar provant-les a la terminal. Alguns blocs es poden copiar sencers, i les línies s'executen una després de l'altra (el bloc de `cp` es pot copiar i enganxar sencer a la terminal). 
 
