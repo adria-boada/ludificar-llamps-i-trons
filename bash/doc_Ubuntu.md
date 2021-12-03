@@ -77,7 +77,7 @@ Per exemple:
     ### Es crea el fitxer 'h-l-c' i 'text.txt' al PWD. 
 
 
-A continuació, una llista amb les ordres bàsiques de sistema, amb exemples. Es poden copiar una a una i anar provant-les a la terminal. Alguns blocs es poden copiar sencers, i cada línia s'executa independenment de la resta (el bloc de `cp` es pot copiar i enganxar sencer a la terminal). 
+A continuació, una llista amb les ordres bàsiques de sistema, amb exemples. Es poden copiar línia a línia i anar provant-les a la terminal. Alguns blocs es poden copiar sencers, i les línies s'executen una després de l'altra (el bloc de `cp` es pot copiar i enganxar sencer a la terminal). 
 
 
  - pwd: Escriu a la terminal el directori on et trobes actualment, el "Present Working Directory" (Directori on s'esta treballant).
