@@ -111,7 +111,8 @@ que guarda el pròpi ordinador.
        mkdir /home/user/Escriptori/album_de_fruita #Igual que cd, es pot treballar de manera absoluta o relativa.
        
        mkdir -p dir1/dir2/dir3/dir4 #Crea els directoris intermedis que no existeixin amb l'opció -p.
-       ### Per exemple, si la carpeta 'album_de_fruita' no existeix. A més a més de crear aquesta, també vols una
+       
+       ### Per exemple: la carpeta 'album_de_fruita' no existeix. A més a més de crear aquesta, també vols una
        ### carpeta per guardar les pomes, i a dins d'aquesta una altra carpeta per les pomes macintosh. 
        ### La opció -p crea 3 directoris de cop. Sense ella s'hauria d'anar un a un.
        mkdir -p album_de_fruita/pomes/mcintosh
@@ -123,7 +124,7 @@ per trobar el seu llistat de fitxers, en comptes del llistat del PWD.
        ls -a #Llistat de tots els fitxers, inclosos fitxers ocults (els que comencen amb punt; p.ex: .bashrc)
        ls -l #Llistat vertical amb una sola columna.
        ls --color #Sovint els colors estan activats de manera predeterminada. En cas contrari els pots cridar així.
-       ls /home/user/Escriptori #Imprimeix el llistat de fitxers de '/home/user/Escriptori'. 
+       ls /home/user/Escriptori #Imprimeix el llistat de fitxers del directori '/home/user/Escriptori'. 
  
  - touch: Crea fitxers ordinaris.  
 
