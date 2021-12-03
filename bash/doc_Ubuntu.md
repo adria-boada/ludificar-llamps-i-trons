@@ -1,4 +1,8 @@
 
+- [La terminal](#la terminal)
+- [Bashic Commands](#bashic commands)
+
+
 # La terminal
 
 La terminal és un programa que et permet comunicar-te amb l'ordinador. Enviar ordres i rebre resultats. Totes les màquines Unix tenen una terminal. 
