@@ -1,9 +1,11 @@
 
-- [La terminal](#la terminal)
-- [Bashic Commands](#bashic commands)
+# Bases d'Unix: Índex
+
+- [La terminal](#terminal)
+- [Bashic Commands](#bashic)
 
 
-# La terminal
+<h2 id="terminal">La terminal</h2>
 
 La terminal és un programa que et permet comunicar-te amb l'ordinador. Enviar ordres i rebre resultats. Totes les màquines Unix tenen una terminal. 
 
@@ -30,7 +32,7 @@ utilitzar el click esquerra, que obre el menú desplegable on es pot copiar i en
 | Descripció de la imatge: Una captura de pantalla amb `Shift` + `ImprPt`, que crea un arxiu .png a la carpeta Imatges. |
     
     
-# Bashic Commands
+<h2 id="bashic">Bashic Commands</h2>
 
 Els 'command-lines' són ordres que s'envien a la màquina. Estan constituïts per la ordre, i poden contenir, a més a més, subordres, opcions i arguments.
 S'ha de separar amb espais cada part de la comanda; ordre {espai} opcions {espai} arguments.
@@ -98,13 +100,19 @@ A continuació, una llista amb les ordres bàsiques de sistema, amb exemples. Es
  - cd: Canvia entre directoris. Si vols veure el directori 'casa', es pot fer amb `echo $HOME`. '$HOME' és una variable de sistema, un text
 que guarda el pròpi ordinador. 
         
-        cd .. #Torna al directori mare/anterior; marxa enrere.
+        cd .. #Els dos punts et tornen al directori mare/anterior; marxa enrere.
         
         cd #Torna a $HOME, el directori 'casa'.
         cd ~ #Fa el mateix que l'anterior, tornar a 'casa'.
         cd $HOME #Si estas perdut i vols tornar a casa... tens molts camins que t'hi duen!
         
         cd /home/user/Escriptori #Canvi de directori de manera absoluta (comença amb /)
+        ### '/' és l'arrel del sistema, on hi han tots els fitxers.
+        
+        ##################IMATGE DIRECTORI ARBRE PENDENT#####################
+        
+        ### No es treballa a l'arrel perquè hi ha el cor de l'ordinador.
+        ### Es treballa a dins de la carpeta de l'usuari, a les mans de l'ordinador. 
         cd Escriptori #Canvi de directori de manera relativa (si et trobes a dins de 'user', sense /)
         cd ~/Escriptori #Canvi de directori de manera absoluta sense haver d'escriure '/home/user'
         ### '~' és el mateix que escriure '/home/user'
