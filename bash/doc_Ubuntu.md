@@ -116,11 +116,14 @@ que guarda el pròpi ordinador.
         cd Escriptori #Canvi de directori de manera relativa (si et trobes a dins de 'user', sense /)
         cd ~/Escriptori #Canvi de directori de manera absoluta sense haver d'escriure '/home/user'
         ### '~' és el mateix que escriure '/home/user'
+        ### Tot això és molt complicat, no et preocupis si no ho entens a la primera.
+        ### Tampoc fa falta encaparrar-se amb les diferències entre destí relatiu i absolut...
         
  - mkdir: Crea un directori, una carpeta.
      
        mkdir album_de_fruita #Crea 'album_de_fruita'
        mkdir /home/user/Escriptori/album_de_fruita #Igual que cd, es pot treballar de manera absoluta o relativa.
+       ### Saps diferenciar quina de les dues comandes anteriors és relativa i quina absoluta?
        
        mkdir -p dir1/dir2/dir3/dir4 #Crea els directoris intermedis que no existeixin amb l'opció -p.
        
