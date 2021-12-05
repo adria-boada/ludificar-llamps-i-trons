@@ -169,4 +169,8 @@ per trobar el seu llistat de fitxers, en comptes del llistat del PWD.
        ### Recursió: vol dir que s'eliminen TOTS els continguts d'una carpeta, un rere l'altre.
        ### rm 'carpeta' no funciona; si vols eliminar carpetes senceres s'ha d'utilitzar la opció -r!
  
+ <h2 id="dotfiles">Fitxers ocults o "fitxers punt"</h2>
  
+ Els fitxers que comencin amb punt (.bashrc, .config, etc.) no seràn visibles. No fa que els fitxers siguin inaccessibles, només els amaga de la vista. Solen ser fitxers amb configuracions que no s'utilitzen per res, de manera que s'amaguen perquè no molestin o ocupin espai.
+ 
+Com configurar .bashrc? $PATH?
