@@ -171,6 +171,6 @@ per trobar el seu llistat de fitxers, en comptes del llistat del PWD.
  
  <h2 id="dotfiles">Fitxers ocults o "fitxers punt"</h2>
  
-En anglès es diuen "[dotfiles](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory)". Els fitxers que comencin amb punt (.bashrc, .config, etc.) no seràn visibles. No fa que els fitxers siguin inaccessibles, només els amaga de la vista. Solen ser fitxers amb configuracions que no s'utilitzen per res, de manera que s'amaguen perquè no molestin o ocupin espai; per evitar el desordre. Per veure aquests fitxers, es pot fer amb `ls -a` (la opció -a o -A mostra tots els fitxers, inclòs els ocults). 
+En anglès es diuen "[dotfiles](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory "Wikipedia en anglès")". Els fitxers que comencin amb punt (.bashrc, .config, etc.) no seràn visibles. No fa que els fitxers siguin inaccessibles, només els amaga de la vista. Solen ser fitxers amb configuracions que no s'utilitzen per res, de manera que s'amaguen perquè no molestin o ocupin espai; per evitar el desordre. Per veure aquests fitxers, es pot fer amb `ls -a` (la opció -a o -A mostra tots els fitxers, inclòs els ocults). 
  
 Com configurar .bashrc? $PATH?
