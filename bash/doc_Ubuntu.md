@@ -111,7 +111,7 @@ Exemple de comandes per a crear una variable temporal (veure - cd):
 galetes=10 #Crea variable galetes
 echo $galetes #Escriu galetes
 
-### Fixi's que per a crear una variable es fa sense dollar,
+### Fixa't que per a crear una variable es fa sense dollar,
 ### Però quan s'utilitza s'ha de posar un dollar. 
 
 echo "$galetes"  #Fa el mateix que la segona línia
