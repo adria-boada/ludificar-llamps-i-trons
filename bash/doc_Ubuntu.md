@@ -106,6 +106,19 @@ echo "Hola món"
 ### En anglès, un text embolcallat de cometes s'anomena string; la seva traducció
 ### seria 'cadena'. El codi no busca ordres a dins de les cometes. 
 ```      
+Exemple de comandes per a crear una variable temporal (veure - cd):
+```
+galetes=10 #Crea variable galetes
+echo $galetes #Escriu galetes
+
+### Fixi's que per a crear una variable es fa sense dollar,
+### Però quan s'utilitza s'ha de posar un dollar. 
+
+echo "$galetes"  #Fa el mateix que la segona línia
+echo "Tinc $galetes galetes al pot"  #Pots posar la variable dins d'una frase
+
+```
+
         
  - cd: Canvia entre directoris. Si vols veure el directori 'casa', es pot fer amb `echo $HOME`. '$HOME' és una variable 'd'ambient', de sistema; un text
 que guarda el pròpi ordinador a dins d'una variable.
