@@ -90,37 +90,46 @@ A continuació, una llista amb les ordres bàsiques de sistema, amb exemples. Es
 
 
  - pwd: Escriu a la terminal el directori on et trobes actualment, el "Present Working Directory" (Directori on s'esta treballant).
-        
-        pwd
-       
+    
+```
+pwd
+```
+      
  - echo: Escriu a la terminal qualsevol text.
 
-        echo mango pinya poma platan taronja
-        echo Que passis un bon dia, humà!
-        echo "Hola món"
-        ### Embolcallar de cometes ajuda que la ordre 'echo' identifiqui el que es vol imprimir. 
+```
+echo mango pinya poma platan taronja
+echo Que passis un bon dia, humà!
+echo "Hola món"
+### Embolcallar de cometes ajuda que la ordre 'echo' identifiqui el que es vol imprimir. 
+       
+### En anglès, un text embolcallat de cometes s'anomena string; la seva traducció
+### seria 'cadena'. El codi no busca ordres a dins de les cometes. 
+```      
         
- - cd: Canvia entre directoris. Si vols veure el directori 'casa', es pot fer amb `echo $HOME`. '$HOME' és una variable de sistema, un text
-que guarda el pròpi ordinador. 
+ - cd: Canvia entre directoris. Si vols veure el directori 'casa', es pot fer amb `echo $HOME`. '$HOME' és una variable 'd'ambient', de sistema; un text
+que guarda el pròpi ordinador a dins d'una variable.
         
-        cd .. #Els dos punts et tornen al directori mare/anterior; marxa enrere.
+```
+cd .. #Els dos punts et tornen al directori mare/anterior; marxa enrere.
         
-        cd #Torna a $HOME, el directori 'casa'.
-        cd ~ #Fa el mateix que l'anterior, tornar a 'casa'.
-        cd $HOME #Si estas perdut i vols tornar a casa... tens molts camins que t'hi duen!
+cd #Torna a $HOME, el directori 'casa'.
+cd ~ #Fa el mateix que l'anterior, tornar a 'casa'.
+cd $HOME #Si estas perdut i vols tornar a casa... tens molts camins que t'hi duen!
         
-        cd /home/user/Escriptori #Canvi de directori de manera absoluta (comença amb /)
-        ### '/' és l'arrel del sistema, on hi han tots els fitxers.
+cd /home/user/Escriptori #Canvi de directori de manera absoluta (comença amb /)
+### '/' és l'arrel del sistema, on hi han tots els fitxers.
         
         ##################IMATGE DIRECTORI ARBRE PENDENT#####################
         
-        ### No es treballa a l'arrel perquè hi ha el cor de l'ordinador.
-        ### Es treballa a dins de la carpeta de l'usuari, a les mans de l'ordinador. 
-        cd Escriptori #Canvi de directori de manera relativa (si et trobes a dins de 'user', sense /)
-        cd ~/Escriptori #Canvi de directori de manera absoluta sense haver d'escriure '/home/user'
-        ### '~' és el mateix que escriure '/home/user'
-        ### Tot això és molt complicat, no et preocupis si no ho entens a la primera.
-        ### Tampoc fa falta encaparrar-se amb les diferències entre destí relatiu i absolut...
+### No es treballa a l'arrel perquè hi ha el cor de l'ordinador.
+### Es treballa a dins de la carpeta de l'usuari, a les mans de l'ordinador. 
+cd Escriptori #Canvi de directori de manera relativa (si et trobes a dins de 'user', sense /)
+cd ~/Escriptori #Canvi de directori de manera absoluta sense haver d'escriure '/home/user'
+### '~' és el mateix que escriure '/home/user'
+### Tot això és molt complicat, no et preocupis si no ho entens a la primera.
+### Tampoc fa falta encaparrar-se amb les diferències entre destí relatiu i absolut...
+```
         
  - mkdir: Crea un directori, una carpeta.
      
