@@ -104,15 +104,15 @@ echo "Hola món"
 ### Embolcallar de cometes ajuda que la ordre 'echo' identifiqui el que es vol imprimir. 
        
 ### En anglès, un text embolcallat de cometes s'anomena string; la seva traducció
-### seria 'cadena'. El codi no busca ordres a dins de les cometes. 
+### seria 'cadena'. Encadena les paraules i fa que els espais no s'interpretin com a múltiples ordres. 
 ```      
 Exemple de comandes per a crear una variable temporal (veure - cd):
 ```
 galetes=10 #Crea variable galetes
 echo $galetes #Escriu galetes
 
-### Fixa't que per a crear una variable es fa sense dollar,
-### Però quan s'utilitza s'ha de posar un dollar. 
+### Fixa't que per a crear una variable es fa sense dòlar,
+### Però quan s'utilitza s'ha de posar un dòlar. 
 
 echo "$galetes"  #Fa el mateix que la segona línia
 echo "Tinc $galetes galetes al pot"  #Pots posar la variable dins d'una frase
