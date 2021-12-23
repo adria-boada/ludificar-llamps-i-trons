@@ -14,9 +14,9 @@ La terminal és un programa que et permet comunicar-te amb l'ordinador. Enviar o
  - La finestra de la terminal d'Ubuntu te una mida predeterminada de 80 columnes x 24 files. Es pot ajustar a les opcions de la terminal (imatge 1). 
  - Es poden obrir múltiples terminals, i en cada una d'elles es poden crear més d'una finestra (igual que un navegador). 
  - Es pot copiar i enganxar text, però en comptes de fer-se amb `Control`+`V` s'ha de prèmer `Control`+`Shift`+`V`. També es pot subratllar/seleccionar el text i llavors queda automàticament guardat a un porta-retalls especial; a continuació, entres a la terminal i apretes la rodeta del ratolí. Un altre mètode seria
-utilitzar el click esquerra, que obre el menú desplegable on es pot copiar i enganxar. 
+utilitzar el click esquerre, que obre el menú desplegable on es pot copiar i enganxar. 
  - Hi han moltes dreceres de teclat. Amb el temps s'entrenen, com qui aprén a tocar el piano. 
-     - `Control`+`T` obre una nova finestra de la terminal.
+     - `Control`+`Shift`+`T` obre una nova finestra de la terminal.
      - `Control`+`R` busca comandes fetes en el passat. Prèmer més d'una vegada busca comandes anteriors. És com *buscar per paraula* a l'historial del navegador.
      - `Control`+`D` tanca la terminal (fa el mateix que la ordre `exit`).
      - `Control`+`C`, possiblement la més important, abortar la tasca actual perquè l'usuari reprengui el control. Si en algun moment es penja la terminal i no respón, o comença a fer coses que no t'agraden, o imprimeix massa text i vols que pari, prem aquests botons!
@@ -30,7 +30,7 @@ utilitzar el click esquerra, que obre el menú desplegable on es pot copiar i en
 | ![terminal_opcions](https://github.com/adria-boada/effective-octo-umbrella/blob/main/imatges/terminal_opcions.png) |
 |:--:| 
 |Imatge 1: Accedir a les opcions de la terminal d'Ubuntu. |
-| Descripció de la imatge: Una captura de pantalla amb `Shift` + `ImprPt`, que crea un arxiu .png a la carpeta Imatges. |
+| Descripció de la imatge: Una captura de pantalla amb `Shift` + `ImprPt`, que crea un arxiu .png a la carpeta Imatges. A les opcions de la terminal se li poden canviar els colors, la mida, les tecles d'accés ràpid, la transparència... |
     
 
 <h2 id="ordre">Les ordres en ordre</h2>
