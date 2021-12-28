@@ -8,7 +8,9 @@
 
 <h2 id="terminal">La terminal</h2>
 
-La terminal és un programa que et permet comunicar-te amb l'ordinador. Enviar ordres i rebre resultats. Totes les màquines Unix tenen una terminal. 
+La terminal és un programa que et permet comunicar-te amb l'ordinador. Enviar ordres i rebre resultats. Totes les màquines Unix tenen una terminal. [Hyperlink prova separat del text][Terminal].
+
+  [Terminal]: https://swcarpentry.github.io/shell-novice-es/01-intro/ "Descripció Hyperlink"
 
  - Pots ajustar la mida del text de la terminal amb <kbd>Control</kbd> i <kbd>+</kbd> o <kbd>-</kbd>.
  - La finestra de la terminal d'Ubuntu te una mida predeterminada de 80 columnes x 24 files. Es pot ajustar a les opcions de la terminal (imatge 1). 
