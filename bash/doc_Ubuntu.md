@@ -10,21 +10,21 @@
 
 La terminal és un programa que et permet comunicar-te amb l'ordinador. Enviar ordres i rebre resultats. Totes les màquines Unix tenen una terminal. 
 
- - Pots ajustar la mida del text de la terminal amb `Control` i `+` o `-`.
+ - Pots ajustar la mida del text de la terminal amb <kbd>Control</kbd> i <kbd>+</kbd> o <kbd>-</kbd>.
  - La finestra de la terminal d'Ubuntu te una mida predeterminada de 80 columnes x 24 files. Es pot ajustar a les opcions de la terminal (imatge 1). 
  - Es poden obrir múltiples terminals, i en cada una d'elles es poden crear més d'una finestra (igual que un navegador). 
- - Es pot copiar i enganxar text, però en comptes de fer-se amb `Control`+`V` s'ha de prèmer `Control`+`Shift`+`V`. També es pot subratllar/seleccionar el text i llavors queda automàticament guardat a un porta-retalls especial; a continuació, entres a la terminal i apretes la rodeta del ratolí. Un altre mètode seria
+ - Es pot copiar i enganxar text, però en comptes de fer-se amb <kbd>Control</kbd>+<kbd>V</kbd> s'ha de prèmer <kbd>Control</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd>. També es pot subratllar/seleccionar el text i llavors queda automàticament guardat a un porta-retalls especial; a continuació, entres a la terminal i apretes la rodeta del ratolí. Un altre mètode seria
 utilitzar el click esquerre, que obre el menú desplegable on es pot copiar i enganxar. 
  - Hi han moltes dreceres de teclat. Amb el temps s'entrenen, com qui aprén a tocar el piano. 
-     - `Control`+`Shift`+`T` obre una nova finestra de la terminal.
-     - `Control`+`R` busca comandes fetes en el passat. Prèmer més d'una vegada busca comandes anteriors. És com *buscar per paraula* a l'historial del navegador.
-     - `Control`+`D` tanca la terminal (fa el mateix que la ordre `exit`).
-     - `Control`+`C`, possiblement la més important, abortar la tasca actual perquè l'usuari reprengui el control. Si en algun moment es penja la terminal i no respón, o comença a fer coses que no t'agraden, o imprimeix massa text i vols que pari, prem aquests botons!
-     - `Control`+`L` neteja el text de la terminal (fa el mateix que la ordre `clear`).
-     - `Tab` autocompleta la ordre o el directori, facilitant molt el treball. Acostuma't a tabular per estalviar feina!
-     - `Alt`+`número` permet canviar entre finestres de la terminal ràpidament, si tens més d'una finestra oberta.
-     - `Inicio` i `Fin` porten al principi i a la fi de la línia actual. 
-     - Les fletxes amunt `▲` i avall `▼` mostren les comandes enviades recentment, ordenades (hi ha un historial guardat amb les ordres que envies!). 
+     - <kbd>Control</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> obre una nova finestra de la terminal.
+     - <kbd>Control</kbd>+<kbd>R</kbd> busca comandes fetes en el passat. Prèmer més d'una vegada busca comandes anteriors. És com *buscar per paraula* a l'historial del navegador.
+     - <kbd>Control</kbd>+<kbd>D</kbd> tanca la terminal (fa el mateix que la ordre `exit`).
+     - <kbd>Control</kbd>+<kbd>C</kbd>, possiblement la més important, abortar la tasca actual perquè l'usuari reprengui el control. Si en algun moment es penja la terminal i no respón, o comença a fer coses que no t'agraden, o imprimeix massa text i vols que pari, prem aquests botons!
+     - <kbd>Control</kbd>+<kbd>L</kbd> neteja el text de la terminal (fa el mateix que la ordre `clear`).
+     - <kbd>Tab</kbd> autocompleta la ordre o el directori, facilitant molt el treball. Acostuma't a tabular per estalviar feina!
+     - <kbd>Alt</kbd>+`número` permet canviar entre finestres de la terminal ràpidament, si tens més d'una finestra oberta.
+     - <kbd>Inicio</kbd> i <kbd>Fin</kbd> porten al principi i a la fi de la línia actual. 
+     - Les fletxes amunt <kbd>▲</kbd> i avall <kbd>▼</kbd> mostren les comandes enviades recentment, ordenades (hi ha un historial guardat amb les ordres que envies!). 
 
 
 | ![terminal_opcions](https://github.com/adria-boada/effective-octo-umbrella/blob/main/imatges/terminal_opcions.png) |
