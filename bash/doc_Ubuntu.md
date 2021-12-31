@@ -149,52 +149,62 @@ cd ~/Escriptori #Canvi de directori de manera absoluta sense haver d'escriure '/
 ```
         
  - mkdir: Crea un directori, una carpeta.
-     
-       mkdir album_de_fruita #Crea 'album_de_fruita'
-       mkdir /home/user/Escriptori/album_de_fruita #Igual que cd, es pot treballar de manera absoluta o relativa.
-       ### Saps diferenciar quina de les dues comandes anteriors és relativa i quina absoluta?
+    
+```
+mkdir album_de_fruita #Crea 'album_de_fruita'
+mkdir /home/user/Escriptori/album_de_fruita #Igual que cd, es pot treballar de manera absoluta o relativa.
+### Saps diferenciar quina de les dues comandes anteriors és relativa i quina absoluta?
        
-       mkdir -p dir1/dir2/dir3/dir4 #Crea els directoris intermedis que no existeixin amb l'opció -p.
+mkdir -p dir1/dir2/dir3/dir4 #Crea els directoris intermedis que no existeixin amb l'opció -p.
        
-       ### Per exemple: la carpeta 'album_de_fruita' no existeix. A més a més de crear aquesta, també vols una
-       ### carpeta per guardar les pomes, i a dins d'aquesta una altra carpeta per les pomes macintosh. 
-       ### La opció -p crea 3 directoris de cop. Sense ella s'hauria d'anar un a un.
-       mkdir -p album_de_fruita/pomes/mcintosh
+### Per exemple: la carpeta 'album_de_fruita' no existeix. A més a més de crear aquesta, també vols una
+### carpeta per guardar les pomes, i a dins d'aquesta una altra carpeta per les pomes macintosh. 
+### La opció -p crea 3 directoris de cop. Sense ella s'hauria d'anar un a un.
+mkdir -p album_de_fruita/pomes/mcintosh
+```
 
  - ls: Llistat de fitxers i carpetes del pwd (present working directory o directori actual). Es pot especificar un directori
 per trobar el seu llistat de fitxers, en comptes del llistat del PWD. 
        
-       ls  #Llistat de fitxers i carpetes del PWD.
-       ls -a #Llistat de tots els fitxers, inclosos fitxers ocults (els que comencen amb punt; p.ex: .bashrc)
-       ls -l #Llistat vertical amb una sola columna.
-       ls --color #Sovint els colors estan activats de manera predeterminada. En cas contrari els pots cridar així.
-       ls /home/user/Escriptori #Imprimeix el llistat de fitxers del directori '/home/user/Escriptori'. 
+```
+ls  #Llistat de fitxers i carpetes del PWD.
+ls -a #Llistat de tots els fitxers, inclosos fitxers ocults (els que comencen amb punt; p.ex: .bashrc)
+ls -l #Llistat vertical amb una sola columna.
+ls --color #Sovint els colors estan activats de manera predeterminada. En cas contrari els pots cridar així.
+ls /home/user/Escriptori #Imprimeix el llistat de fitxers del directori '/home/user/Escriptori'. 
+```
  
  - touch: Crea fitxers ordinaris.  
 
-       touch mango #Crea al pwd un fitxer buit anomenat 'mango'.
+`touch mango #Crea al pwd un fitxer buit anomenat 'mango'.`
        
  - cp: copia fitxers i directoris. Si pwd te el fitxer mango, es pot provar de copiar el següent bloc, sencer, a la terminal. 
 
-       cp mango pinya #Fa una còpia del fitxer mango que es diu pinya (els dos continuen estant buits).
-       cp mango album_de_fruita/poma #Fa una còpia del mango, l'envia a l'Escriptori i li canvia el nom a poma.
-       cp mango ~/Escriptori #Fa una còpia de mango i l'envia a l'Escriptori. **NO** li canvia el nom. 
-       
+```
+cp mango pinya #Fa una còpia del fitxer mango que es diu pinya (els dos continuen estant buits).
+cp mango album_de_fruita/poma #Fa una còpia del mango, l'envia a l'Escriptori i li canvia el nom a poma.
+cp mango ~/Escriptori #Fa una còpia de mango i l'envia a l'Escriptori. **NO** li canvia el nom. 
+```
+
  - mv: Mou el fitxer. S'utilitza per moure i canviar el nom tant a fitxers com carpetes.
 
-       mv mango album_de_fruita #Mou mango a dins de la carpeta 'album_de_fruita'
-       mv mango kiwi #Canvia el nom del fitxer mango a kiwi. No el mou.
-       mv mango Escriptori/kiwi #Mou mango a l'escriptori i li canvia el nom a kiwi. 
+```
+mv mango album_de_fruita #Mou mango a dins de la carpeta 'album_de_fruita'
+mv mango kiwi #Canvia el nom del fitxer mango a kiwi. No el mou.
+mv mango Escriptori/kiwi #Mou mango a l'escriptori i li canvia el nom a kiwi. 
+```
 
  - rm: Elimina fitxers i directoris **PERMANENTMENT**. Es poden perdre fitxers importants, per sempre. Utilitzar amb compte. 
- 
-       rm mango #Elimina per sempre 'mango'.
-       rm -i pinya #Pregunta abans d'eliminar 'pinya', per si de cas!
-       rm -id album_de_fruita #la opció -d impedeix eliminar carpetes plenes de fitxers.
-       rm -ir album_de_fruita #la opció -r fa que s'elimini recursivament una carpeta.
-       ### Recursió: vol dir que s'eliminen TOTS els continguts d'una carpeta, un rere l'altre.
-       ### rm 'carpeta' no funciona; si vols eliminar carpetes senceres s'ha d'utilitzar la opció -r!
- 
+
+```
+rm mango #Elimina per sempre 'mango'.
+rm -i pinya #Pregunta abans d'eliminar 'pinya', per si de cas!
+rm -id album_de_fruita #la opció -d impedeix eliminar carpetes plenes de fitxers.
+rm -ir album_de_fruita #la opció -r fa que s'elimini recursivament una carpeta.
+### Recursió: vol dir que s'eliminen TOTS els continguts d'una carpeta, un rere l'altre.
+### rm 'carpeta' no funciona; si vols eliminar carpetes senceres s'ha d'utilitzar la opció -r!
+```
+
  <h2 id="dotfiles">Fitxers ocults o "fitxers punt"</h2>
  
 En anglès es diuen "[dotfiles](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory "Wikipedia en anglès")". Els fitxers que comencin amb punt (.bashrc, .config, etc.) no seràn visibles. No fa que els fitxers siguin inaccessibles, només els amaga de la vista. Solen ser fitxers amb configuracions que no s'utilitzen per res, de manera que s'amaguen perquè no molestin o ocupin espai; per evitar el desordre. Per veure aquests fitxers, es pot fer amb `ls -a` (la opció -a o -A mostra tots els fitxers, inclòs els ocults). 
@@ -203,6 +213,20 @@ Com configurar .bashrc? $PATH?
 
 ## Regex: Regular Expressions
 
-Les expressions regulars son "frases" que simbolitzen un ampli grup de possibilitats. Per exemple, el caràcter "*" 
+Les expressions regulars son "frases" que simbolitzen un ampli grup de possibilitats. Per exemple, els asteriscs ("\*") simbolitzen qualsevol grup de números/lletres/símbols.
+
+`ls *  #Amb asterisc, imprimeix els continguts de tots els directoris del directori on et trobes`
+
+`less *.txt  #Busca qualsevol fitxer/s .txt i obre'ls. Si obre més d'un fitxer, prem ':n' i ':p' per moure's entre ells`
+
+En els casos anteriors, es substitueix l'asterisc per qualsevol paraula possible. Si et trobes a l'escriptori i tens tres fitxers .txt, `less *.txt` obrirà els tres textos. Si et trobes a l'escriptori i tens dues carpetes a més a més dels tres txts, `ls *` imprimirà els continguts de les dues carpetes i les direccions dels dos txts.
+
+Manuals amb expressions regulars:
+
+["man 7 re_format" en versió html en línia](http://man7.org/linux/man-pages/man7/regex.7.html)
+
+```bash
+man 7 re_format  #versió manual terminal
+```
 
 
