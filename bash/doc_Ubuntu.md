@@ -213,13 +213,11 @@ Com configurar .bashrc? $PATH?
 
 ## Regex: Regular Expressions
 
-Les expressions regulars son "frases" que simbolitzen un ampli grup de possibilitats. Per exemple, els asteriscs ("\*") simbolitzen qualsevol grup de números/lletres/símbols.
+Les expressions regulars son "frases" que simbolitzen un ampli grup de possibilitats. Per exemple, els asteriscs (" \* ") simbolitzen qualsevol grup (des de zero fins a '~infinits') de números/lletres/símbols.
 
-`ls *  #Amb asterisc, imprimeix els continguts de tots els directoris del directori on et trobes`
-
-`less *.txt  #Busca qualsevol fitxer/s .txt i obre'ls. Si obre més d'un fitxer, prem ':n' i ':p' per moure's entre ells`
-
-En els casos anteriors, es substitueix l'asterisc per qualsevol paraula possible. Si et trobes a l'escriptori i tens tres fitxers .txt, `less *.txt` obrirà els tres textos. Si et trobes a l'escriptori i tens dues carpetes a més a més dels tres txts, `ls *` imprimirà els continguts de les dues carpetes i les direccions dels dos txts.
+Exemples específics on es substitueix l'asterisc per qualsevol paraula possible: 
+ * Si et trobes a la carpeta de documents i tens tres fitxers .txt, `less *.txt` obrirà els tres textos. Busca una paraula que comenci amb _el que sigui_, acabi amb ".txt" i els obre amb less. Prem ':n' i ':p' a dins de less per moure's entre més d'un fitxer obert.
+ * Si et trobes a "/home/user" i tens una carpeta que es diu "Escriptori", l'asterisc de `ls E*` substitueix per "scriptori". Per tant, imprimeix els continguts de tots els directoris que comencin amb E; p.ex. "Escriptori".
 
 Manuals amb expressions regulars:
 
@@ -228,5 +226,6 @@ Manuals amb expressions regulars:
 ```bash
 man 7 re_format  #versió manual terminal
 ```
+
 
 
