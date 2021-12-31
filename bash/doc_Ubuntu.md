@@ -5,7 +5,7 @@
 - [Les ordres en ordre!](#ordre)
 - [Bashic Commands](#bashic)
 - [Dotfiles](#dotfiles)
-- [Expressions Regulars](#Regex-(Regular-Expressions))
+- [Expressions Regulars](#Regex-Regular-Expressions)
 
 
 <h2 id="terminal">La terminal</h2>
@@ -201,7 +201,7 @@ En anglès es diuen "[dotfiles](https://en.wikipedia.org/wiki/Hidden_file_and_hi
  
 Com configurar .bashrc? $PATH?
 
-## Regex (Regular Expressions)
+## Regex: Regular Expressions
 
 Les expressions regulars son "frases" que simbolitzen un ampli grup de possibilitats. Per exemple, el caràcter "*" 
 
