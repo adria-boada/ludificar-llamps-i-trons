@@ -4,6 +4,8 @@
 - [La terminal](#terminal)
 - [Les ordres en ordre!](#ordre)
 - [Bashic Commands](#bashic)
+- [Dotfiles](#dotfiles)
+- [Expressions Regulars](#Regex-(Regular-Expressions))
 
 
 <h2 id="terminal">La terminal</h2>
@@ -198,3 +200,9 @@ per trobar el seu llistat de fitxers, en comptes del llistat del PWD.
 En anglès es diuen "[dotfiles](https://en.wikipedia.org/wiki/Hidden_file_and_hidden_directory "Wikipedia en anglès")". Els fitxers que comencin amb punt (.bashrc, .config, etc.) no seràn visibles. No fa que els fitxers siguin inaccessibles, només els amaga de la vista. Solen ser fitxers amb configuracions que no s'utilitzen per res, de manera que s'amaguen perquè no molestin o ocupin espai; per evitar el desordre. Per veure aquests fitxers, es pot fer amb `ls -a` (la opció -a o -A mostra tots els fitxers, inclòs els ocults). 
  
 Com configurar .bashrc? $PATH?
+
+## Regex (Regular Expressions)
+
+Les expressions regulars son "frases" que simbolitzen un ampli grup de possibilitats. Per exemple, el caràcter "*" 
+
+
