@@ -213,7 +213,7 @@ Com configurar .bashrc? $PATH?
 
 ## Regex: Regular Expressions
 
-Les expressions regulars son "frases" que simbolitzen un ampli grup de possibilitats. Per exemple, els asteriscs (" \* ") simbolitzen qualsevol grup (des de zero fins a '~infinits') de números/lletres/símbols.
+Les [expressions regulars](https://dev.to/codestackr/regular-expressions-regex-crash-course-248n) son "frases" que simbolitzen un ampli grup de possibilitats. Per exemple, els asteriscs (" \* ") simbolitzen qualsevol grup (des de zero fins a '~infinits') de números/lletres/símbols.
 
 Exemples específics on es substitueix l'asterisc per qualsevol paraula possible: 
  * Si et trobes a la carpeta de documents i tens tres fitxers .txt, `less *.txt` obrirà els tres textos. Busca una paraula que comenci amb _el que sigui_, acabi amb ".txt" i els obre amb less. Prem ':n' i ':p' a dins de less per moure's entre més d'un fitxer obert.
