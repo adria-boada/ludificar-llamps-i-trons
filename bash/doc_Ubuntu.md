@@ -228,4 +228,4 @@ man 7 re_format  #versió manual terminal
 ```
 
 
-
+Prova: petit paràgraf escrit en un document clonat local.
