@@ -26,3 +26,4 @@ fi
 # Enllaç informació: 
 # [1]: http://jafrog.com/2013/11/23/colors-in-terminal.html
 # [2]: https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124
+
