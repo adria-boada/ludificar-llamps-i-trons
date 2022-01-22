@@ -2,7 +2,8 @@
 #!/bin/bash
 # COLORS
 
-# \e: Tecla control que invoca ESC; es poden usar d'altres invocadors.
+# \e: Tecla control que invoca ESC; és el codi de control que canvia color.
+# Es poden usar d'altres invocadors que facin aparèixer ESC.
 # 38;5: Prefix que crida la paleta de colors xterm-256.
 # $code: {0..255}, tots els colors dins la paleta 256.
 # 04: modifica el text a subratllat. Amb 01 negreta; 02 cursiva; etc.
